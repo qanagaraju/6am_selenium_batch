@@ -38,7 +38,7 @@ public static WebDriver driver;
 	
 		
 		driver.get(Appurl);
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		return driver;

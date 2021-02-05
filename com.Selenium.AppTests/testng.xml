@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test  name="LoginTest">
     <classes>
-      <class name="com.Selenium.AppScripts.AppTestScripts"/>
-    </classes>
+     <class name="com.AppProject.AppLoginTest"/>
+      </classes>
   </test> <!-- Test -->
+  
+  <test  name="AppLinksTest">
+    <classes>
+     <class name="com.AppProject.AppHomePageLinks"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
 </suite> <!-- Suite -->
